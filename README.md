@@ -1,8 +1,10 @@
 # pivotal2trac
 
-pivotal2trac imports stories from Pivotal Tracker into Trac. This importer works by submitting the Trac new ticket form multiple times.
+pivotal2trac imports stories from Pivotal Tracker into Trac. This importer works by submitting the Trac new ticket form multiple times. 
 
 All stories are imported to a single component, milestone, and version name.
+
+Export stories as CSV from Pivotal via `Project -> Export CSV`.
 
 ## Usage
 
@@ -12,7 +14,7 @@ All stories are imported to a single component, milestone, and version name.
 
 (The MIT License)
 
-Copyright (c) 2011 Casey Banner <kcbanner@gmail.com>;
+Copyright (c) 2011 Casey Banner <kcbanner@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
