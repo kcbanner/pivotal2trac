@@ -2,7 +2,7 @@
 
 pivotal2trac imports stories from Pivotal Tracker into Trac. This importer works by submitting the Trac new ticket form multiple times. 
 
-All stories are imported to a single component, milestone, and version name.
+All stories are imported to a single component, milestone, and version name. Make sure that 'Feature', 'Bug' and 'Chore' ticket types exist on your Trac installation. Release stories are ignored.
 
 Export stories as CSV from Pivotal via `Project -> Export CSV`.
 
