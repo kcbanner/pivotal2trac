@@ -10,6 +10,10 @@ Export stories as CSV from Pivotal via `Project -> Export CSV`.
 
     $ ./pivotal2trac.py -s trac.example.com -f pivotal_export.csv -u Username -c 'Component name' -m 'Milestone name' -v 'Version name'
 
+## Dependencies
+
+  * mechanize
+
 ## License
 
 (The MIT License)
